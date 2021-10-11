@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!-- ========================== SWIPER CSS ===================================  -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
 
     <!-- ========================== CSS ===================================  -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -60,14 +60,14 @@
             </li>              
 
             <li class="nav__item">
-                <a href="#portifolio" class="nav__link">
+                <a href="#portfolio" class="nav__link">
                 <i class="uil uil-scenery nav__icon"></i> Portifólio
                 </a>
             </li> 
 
             <li class="nav__item">
                 <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i>  Entre em Contato
+                <i class="uil uil-message nav__icon"></i>Contato
                 </a>
             </li>            
             
@@ -675,40 +675,96 @@
 
     <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
-            
+            <h2 class="section__title">Portifólio</h2>
+            <span class="section__subtitle">Meu projetos</span>
 
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/cervejaria.png" alt="Capa do Projeto" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Site Cervejaria Espinhaço</h3>
+                            <p class="portfolio__description">Site para a divulgação e compra da Cervejaria Espinhaço. Responsivo para todos os dispositivos </p>
+                            <a href="https://github.com/tujade/cervejariaespinhaco" target="_blank" class="button button--flex button--small portfolio__button">
+                                Veja o projeto
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/devfinances.png" alt="Capa do Projeto" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Aplicação Dev.finances</h3>
+                            <p class="portfolio__description">Aplicação desenvolvida para controle financeiro. Disponível para qualquer dispositivo e com armazenamento de cache.</p>
+                            <a href="https://github.com/tujade/dev-money" target="_blank" class="button button--flex button--small portfolio__button">
+                                Veja o projeto
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/rocketq.png" alt="Capa do Projeto" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Aplicação RocketQ</h3>
+                            <p class="portfolio__description">Aplicação desenvolvida para que host's consigam organizar as perguntas dos participantes em lives, palestras, aulas ou qualquer transmissão ao vivo ou gravada. Desenvolvimento do Front-End e Back-End da aplicação</p>
+                            <a href="https://github.com/tujade/rocketq" target="_blank" class="button button--flex button--small portfolio__button">
+                                Veja o projeto
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/restaurantfinder.png" alt="Capa do Projeto" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Aplicação Restaurant Finder</h3>
+                            <p class="portfolio__description">Aplicação desenvolvida para a busca de restaurantes e lanchonetes em sua região, retornando informações como endereço, telefone e funcionamento. Utilização de API do Google Maps</p>
+                            <a href="https://github.com/tujade/restaurant-finder" target="_blank" class="button button--flex button--small portfolio__button">
+                                Veja o projeto
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 5 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/snakegame.png" alt="Capa do Projeto" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Jogo Snake Game</h3>
+                            <p class="portfolio__description">Jogo desenvolvido a base de JavaScript para estudo e diversão.</p>
+                            <a href="https://github.com/tujade/snakegame" target="_blank" class="button button--flex button--small portfolio__button">
+                                Veja o projeto
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>                                                                                
+                </div>
+
+                <!-- ADD ARROWS -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- ADD PAGINATION -->
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         
-    <!--==================== PROJECT IN MIND ====================-->
-        <section class="project section">
-
-
-        </section>
-
-    <!--==================== TESTIMONIAL ====================-->
-        <section class="testimonial section">
-            
-
-        </section>
-
     <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contact">
 
@@ -725,8 +781,8 @@
   <!-- ========================== SCROLL TOP ===================================  -->
 
 
-  <!-- ========================== SWIPER JS ===================================  -->
-
+    <!-- ========================== SWIPER JS ===================================  -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!-- ========================== MAIN JS ===================================  -->
     <script src="/assets/js/main.js"></script>
