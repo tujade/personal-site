@@ -28,14 +28,8 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
 
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">
-                        <i class="uil uil-estate nav__icon"></i> Início
-                        </a>                       
-                    </li>
-
                 <li class="nav__item">
-                    <a href="#about" class="nav__link">
+                    <a href="#about" class="nav__link active-link">
                         <i class="uil uil-user nav__icon"></i> Sobre
                     </a>                   
                 </li>
@@ -85,29 +79,28 @@
 
     </header>
 
-
     <!-- ========================== MAIN ===================================  -->
     <main class="main">
         <!-- ========================== HOME ===================================  -->
-        <section class="home section" id="home">
+        <section class="home section" id="about">
             <div class="home__container container grid">
-                  <div class="home__content grid">
-                      <div class="home__social">
-                          <a href="https://www.linkedin.com/in/jademdiniz/" target="_blank" class="home__social-icon">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/jademdiniz/" target="_blank" class="home__social-icon">
                             <i class="uil uil-linkedin-alt"></i>
-                          </a>
+                        </a>
 
-                          <a href="https://github.com/tujade" target="_blank" class="home__social-icon">
+                        <a href="https://github.com/tujade" target="_blank" class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
-                          </a>
+                        </a>
 
-                          <a href="https://www.instagram.com/tu_jad/" target="_blank" class="home__social-icon">
+                        <a href="https://www.instagram.com/tu_jad/" target="_blank" class="home__social-icon">
                             <i class="uil uil-instagram"></i>
-                          </a>  
-                      </div>
+                        </a>  
+                    </div>
 
                     <div class="home__img">
-                          <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <mask id="mask0" mask-type="alpha">
                                 <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
@@ -538,7 +531,6 @@
             </div>
         </section>
 
-
     <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
             <h2 class="section__title">Serviços</h2>
@@ -764,21 +756,97 @@
             </div>
         </section>
 
-        
     <!--==================== CONTACT ME ====================-->
-        <section class="contact section" id="contact">
+    <section class="contact section" id="contact">
+            <h2 class="section__title">Contato</h2>
+            <span class="section__subtitle">Vamos conversar?</span>
 
+                <a href="tel:5531988623419">
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Que tal me ligar?</h3>
+                                <span class="contact__subtitle">(31) 98862-3419</span>
+                            </div>
+                        </div>
+                    </a>
 
+                    <a href="https://api.whatsapp.com/send?l=pt-BR&phone=5531992140463"target="_blank">
+                        <div class="contact__information">
+                            <i class="uil uil-whatsapp contact__icon"></i>    
+                            <div>
+                                <h3 class="contact__title">Quem sabe um WhatsApp?</h3>
+                                <span class="contact__subtitle">(31) 99214-0463</span>
+                            </div>
+                        </div>
+                    </a>
+                            
+                        <a href="mailto:jade.mundim@gmail.com?Subject=Título%20do%20Projeto"target="_blank">
+                            <div class="contact__information">
+                                <i class="uil uil-envelope-add contact__icon"></i>    
+                                <div>
+                                    <h3 class="contact__title">Prefere um e-mail?</h3>
+                                    <span class="contact__subtitle">jade.mundim@gmail.com</span>
+                                </div>
+                            </div>
+                        </a>
+
+                            <a href="https://www.google.com/maps/place/Vespasiano+-+MG/data=!4m2!3m1!1s0xa67d11bb987495:0x79ee966a896a7e19?sa=X&ved=2ahUKEwik4oL588rzAhW8rZUCHbzoDvEQ8gF6BAhVEAE" target="_blank">
+                                <div class="contact__information">
+                                    <i class="uil uil-map-marker contact__icon"></i>    
+                                    <div>      
+                                        <h3 class="contact__title">Onde estou?</h3>
+                                        <span class="contact__subtitle">Vespasiano - Minas Gerais</span>  
+                                    </div>
+                                </div>
+                            </a>
+                        </div>      
+                </div>
         </section>
+</main>
 
-  </main>
+    <!-- ========================== FOOTER  ===================================  -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Jade</h1>
+                    <span class="footer__subtitle">Desenvolvedora Front-End</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Serviços</a>
+                    </li>                   
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portifólio</a>
+                    </li>                    
+                    <li>
+                        <a href="#contact" class="footer__link">Contato</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/jademdiniz/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin footer__icon"></i>
+                    </a>
+                    <a href="https://github.com/tujade" target="_blank"  class="footer__social ">
+                        <i class="uil uil-github footer__icon"></i>
+                    </a>
+                    <a href="https://www.instagram.com/tu_jad/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram footer__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; JadeDiniz. All right reserved.</p>
+        </div>
+    </footer>
 
 
-
-  <!-- ========================== FOOTER  ===================================  -->
-
-
-  <!-- ========================== SCROLL TOP ===================================  -->
+    <!-- ========================== SCROLL TOP ===================================  -->
 
 
     <!-- ========================== SWIPER JS ===================================  -->
