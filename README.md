@@ -1,6 +1,6 @@
 # Personal website - Jade Diniz 
 
-#### See now on: <a href="https://jadediniz.netlify.app/" target="_blank" ></a>https://jadediniz.netlify.app/ ❤
+#### See now on: <a href="https://jadediniz.netlify.app/" target="_blank" >https://jadediniz.netlify.app/ </a>❤
 
 This is a site designed for study and challenge and to be used as my personal site for demonstration in interviews and job applications. ✔
 
