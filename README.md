@@ -1,5 +1,7 @@
 # Personal website - Jade Diniz 
 
+## See now on: jadediniz.netlify.app ❤
+
 This is a site designed for study and challenge and to be used as my personal site for demonstration in interviews and job applications. ✔
 
 Above all, a personal website serves as a window where you can showcase particular skills and connect with a particular target audience. This applies best when it comes to the job market, whether you are looking for a better job or simply considering an alternative career path. 👨‍💻
@@ -40,4 +42,8 @@ CSS allows you to animate HTML elements without using JavaScript or Flash!
 ## Thanks ❤
 
 I finally finished this project! 
+
+
+
+
 
