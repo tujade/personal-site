@@ -1,10 +1,10 @@
 # Personal website - Jade Diniz 
 
-This is a site designed for study and challenge and to be used as my personal site for demonstration in interviews and job applications.
+This is a site designed for study and challenge and to be used as my personal site for demonstration in interviews and job applications. ✔
 
-Above all, a personal website serves as a window where you can showcase particular skills and connect with a particular target audience. This applies best when it comes to the job market, whether you are looking for a better job or simply considering an alternative career path.
+Above all, a personal website serves as a window where you can showcase particular skills and connect with a particular target audience. This applies best when it comes to the job market, whether you are looking for a better job or simply considering an alternative career path. 👨‍💻
 
-### The challenge
+### The challenge 💻
 
 Users should be able to:
 
@@ -12,7 +12,7 @@ Users should be able to:
 - Perform mathmatical operations like addition, subtraction, multiplication, and division
 - Adjust the color theme based on their preference
 
-### Screenshot
+### Screenshot 📸
 
 ![image](https://user-images.githubusercontent.com/86531281/139168087-b2795bb0-0f3e-42a7-982c-8e81878804c3.png)
 ### Links
@@ -21,14 +21,14 @@ Users should be able to:
 - Iconscout URL: [Free icon](https://your-live-site-url.com/)
 - Swiper URL: [Framework](https://swiperjs.com/)
 
-### Built with
+### Built with 🛠
 
-- Semantic HTML5 markup 
-- CSS custom properties
-- Function Javascrip
-- Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
-
+<div style="display: inline_block"><br>
+  <img align="center" alt="Jade-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Jade-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Jade-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+ </div>
+<br>
 ### Continuous development
 
 CSS allows you to animate HTML elements without using JavaScript or Flash!
@@ -37,7 +37,7 @@ CSS allows you to animate HTML elements without using JavaScript or Flash!
 
 - Bedimcode- It helped me with the basic structure. I really liked this pattern and will use it going forward.
 
-## Thanks
+## Thanks ❤
 
 I finally finished this project! 
 
