@@ -14,8 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Creme e Preto Imagem Design de Interiores Painel Semântico](C:\Users\jadem\OneDrive\Área de Trabalho\Creme e Preto Imagem Design de Interiores Painel Semântico.png)
-
+![image](https://user-images.githubusercontent.com/86531281/139168087-b2795bb0-0f3e-42a7-982c-8e81878804c3.png)
 ### Links
 
 - Google Fonts URL: [Fonts](https://fonts.google.com/)
