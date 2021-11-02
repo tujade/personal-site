@@ -551,6 +551,15 @@ img {
   transform: rotate(-180deg);
 }
 
+.skills__reference p {
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
+.skills__reference span {
+  font-weight: bold;
+}
+
 /* ===============  QUALIFICATION     =========================  */
 .qualification__tabs {
   display: flex;
