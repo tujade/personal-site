@@ -551,13 +551,22 @@ img {
   transform: rotate(-180deg);
 }
 
-.skills__reference p {
+.skills__reference details {
+  cursor: pointer;
+}
+
+.skills__reference details :hover {
+  color: var(--text-color);
+}
+
+.skills__reference summary  {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
 
 .skills__reference span {
   font-weight: bold;
+  font-size: var(--smaller-font-size);
 }
 
 /* ===============  QUALIFICATION     =========================  */
