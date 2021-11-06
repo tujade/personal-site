@@ -569,6 +569,10 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+::marker {
+  color: var(--first-color);
+}
+
 /* ===============  QUALIFICATION     =========================  */
 .qualification__tabs {
   display: flex;
