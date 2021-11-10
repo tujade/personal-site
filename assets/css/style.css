@@ -482,6 +482,7 @@ img {
   font-weight: var(--font-medium);
 }
 
+
 .skills__bar,
 .skills__percentage {
   height: 5px;
@@ -551,27 +552,30 @@ img {
   transform: rotate(-180deg);
 }
 
-.skills__reference details {
-  cursor: pointer;
+.skills__title__reference {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.skills__reference details :hover {
-  color: var(--text-color);
+.skills__reference {
+  margin-bottom: var(--mb-2);
+  
 }
 
-.skills__reference summary  {
-  font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
+.skills__reference__data {
+  padding-left: 2.7rem;
 }
 
 .skills__reference span {
   font-weight: bold;
+  font-size: var(--small-font-size);
+}
+
+.skills__reference p {
   font-size: var(--smaller-font-size);
 }
 
-::marker {
-  color: var(--first-color);
-}
 
 /* ===============  QUALIFICATION     =========================  */
 .qualification__tabs {
