@@ -807,6 +807,34 @@ img {
   outline: none;
 }
 
+/* ===============  CERTIFICATES     =========================  */
+.certificates__container {
+  overflow: initial;
+}
+
+.certificates__content {
+  padding: 0 1.5rem;
+}
+
+.certificates__img {
+  width: 265px;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+
+.certificates__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.certificates__description {
+  margin-bottom: var(--mb-0-75);
+}
+
+.certificates__button:hover .button__icon {
+  transform: translateX(0.25rem);
+}
+
 /* ===============  CONTACT ME      =========================  */
 .contact__container {
   row-gap: 3rem;
@@ -1018,6 +1046,7 @@ img {
   .about__container,
   .skills__container,
   .portfolio__content,
+  .certificates__container,
   .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
@@ -1162,6 +1191,14 @@ img {
     align-items: center;
   }
 
+  .certificates__img {
+    widows: 320px;
+  }
+
+  .certificates__content {
+    align-items: center;
+  }
+
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1202,6 +1239,10 @@ img {
   }
 
   .portfolio__content {
+    column-gap: 5rem;
+  }
+
+  .certificates__content {
     column-gap: 5rem;
   }
 
