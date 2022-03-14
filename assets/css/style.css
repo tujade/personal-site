@@ -807,34 +807,6 @@ img {
   outline: none;
 }
 
-/* ===============  CERTIFICATES     =========================  */
-.certificates__container {
-  overflow: initial;
-}
-
-.certificates__content {
-  padding: 0 1.5rem;
-}
-
-.certificates__img {
-  width: 265px;
-  border-radius: 0.5rem;
-  justify-self: center;
-}
-
-.certificates__title {
-  font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-0-5);
-}
-
-.certificates__description {
-  margin-bottom: var(--mb-0-75);
-}
-
-.certificates__button:hover .button__icon {
-  transform: translateX(0.25rem);
-}
-
 /* ===============  CONTACT ME      =========================  */
 .contact__container {
   row-gap: 3rem;
