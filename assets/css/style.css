@@ -514,16 +514,16 @@ img {
 }
 /* BACKEND                 */
 .skills__php {
-  width: 0%;
+  width: 65%;
 }
 .skills__node {
-  width: 10%;
+  width: 45%;
 }
 .skills__firebase {
-  width: 8%;
+  width: 45%;
 }
 .skills__phyton {
-  width: 0%;
+  width: 25%;
 }
 /* SOFTSKILLS            */
 .skills__client {
